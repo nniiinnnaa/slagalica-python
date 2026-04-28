@@ -18,6 +18,12 @@ The game smoothly transitions through 6 classic mini-games:
 * **Dynamic Module Loading:** The main game loop dynamically imports and runs each mini-game as an independent module using `importlib`, keeping the codebase modular and clean.
 * **Custom UI:** Custom Pygame UI elements, including timers, animated buttons, and gradient visuals.
 
+## How to Play
+
+### General Controls
+* **Server:** Must be running before clients attempt to connect.
+* **Connection:** Both players must connect to the same IP and port to start the match.
+
 ## Prerequisites
 
 To run this game, you need Python 3.x and the `pygame` library installed:
